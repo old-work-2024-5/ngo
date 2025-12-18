@@ -472,13 +472,30 @@ export default function Home() {
               mapUrl="https://maps.google.com/?q=4234+Lawrence+Ave+East,+Scarborough,+ON"
             />
 
-            <LocationCard
-              title="GORDONRIDGE PLACE TORONTO"
-              address="10 Gordonridge Place"
-              city="Scarborough, Toronto, ON"
-              postalCode="M1K 4H6"
-              mapUrl="https://maps.google.com/?q=10+Gordonridge+Place,+Scarborough,+Toronto,+ON"
-            />
+            <div className="bg-card p-8 rounded-3xl shadow-lg border border-primary/10 flex flex-col justify-center h-full">
+              <h3 className="text-2xl font-bold text-primary mb-2 flex items-center gap-2">
+                <span>📍</span> 4301 Kingston Road School Breakfast Club
+              </h3>
+              <p className="text-accent font-semibold mb-4">Start Date: January 12, 2026</p>
+              <p className="text-muted-foreground mb-4">
+                We are pleased to announce the launch of the 4301 Kingston Road School Breakfast Club, beginning January 12, 2026.
+              </p>
+              <p className="text-muted-foreground mb-2 font-medium">This program is designed to:</p>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start gap-2">
+                  <span>🥪</span>
+                  <span>Provide nutritious breakfast meals to students</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span>🎒</span>
+                  <span>Support learning by ensuring children start the day focused and energized</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span>🤝</span>
+                  <span>Promote health, well-being, and school readiness</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
